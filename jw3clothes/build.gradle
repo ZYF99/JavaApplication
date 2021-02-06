@@ -1,0 +1,15 @@
+plugins {
+    id 'java-library'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
+
+dependencies {
+    implementation files('libs\\slf4j-simple-1.7.25.jar')
+    implementation files('libs\\slf4j-api-1.7.25.jar')
+    implementation files('libs\\json-20160810.jar')
+    implementation files('libs\\aip-java-sdk-4.15.1.jar')
+}
